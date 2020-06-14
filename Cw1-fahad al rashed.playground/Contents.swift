@@ -20,14 +20,27 @@ var friendheight = 1.8
 var age_diffrence = age - friendage
 
 // compare
+hobby1 == friendhobby1
+hobby1 != friendhobby1
+hobby2 == friendhobby2
+hobby2 != friendhobby2
+hobby1 == friendhobby2
+hobby1 != friendhobby2
+hobby2 == friendhobby1
+hobby2 != friendhobby2
+
 age > friendage
 age < friendage
-height <= friendheight
-friendheight >= height
+age >= friendage
+age <= friendage
 age == friendage
-friendheight == height
-friendage != age
+age != friendage
+
+height == friendheight
+height < friendheight
+height > friendheight
+height >= friendheight
+height <= friendheight
 height != friendheight
-hobby2 == friendhobby2
-hobby1 == friendhobby1
+
 
